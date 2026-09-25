@@ -1,4 +1,8 @@
-import requests, time
+from flask import Flask
+import threading
+app = Flask(__name__)
+@app.route('/')
+def home(): return "Victa V7 LIVE"import requests, timethreading.Thread(target=lambda: app.run(host='0.0.0.0',port=10000)).start()
 BOT_TOKEN="8630263342:AAEXZlPraPxjTzDuoF5312ziQdb5_jyyuNs"
 CHAT_ID="6753218887"
 prices=[]
