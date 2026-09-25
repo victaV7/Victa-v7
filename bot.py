@@ -9,7 +9,7 @@ def home():
 
 threading.Thread(target=lambda: app.run(host='0.0.0.0',port=10000)).start()
 
-BOT_TOKEN = "8466153743:AAHv2lV5yQKcQ8YQ8YQ8YQ8YQ8YQ8YQ8"  # <-- REPLACE WITH YOUR REAL TOKEN FROM BOTFATHER
+BOT_TOKEN ="8630263342:AAEKwsrJ-pQEdqSMZ_3xhpxj4qw1En48XNE"  # <-- REPLACE WITH YOUR REAL TOKEN FROM BOTFATHER
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 def get_updates(offset=0):
